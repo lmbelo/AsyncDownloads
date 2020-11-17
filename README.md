@@ -2,6 +2,12 @@
 
 <p><b>Aplicação cliente/servidor para gerenciar downloads simultâneos.</b></p>
 
+<h3>Banco de dados</h3>
+Sempre que a aplicação for inicializada e o banco de dados não existir no diretório padrão, um novo arquivo será criado.
+
+O caminho padrão e o nome do arquivo de banco de dados estão informados a seguir:
+ - C:\Users\\<seu_usuario>\Documents\Desafio\Database\DESAFIO.s3db
+
 <h3>Servidor</h3>
 
 A aplicação servidora recebe a notificação de um novo download solicitado pela aplicação cliente e a persiste no banco de dados.
