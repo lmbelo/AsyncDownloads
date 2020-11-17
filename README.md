@@ -3,7 +3,7 @@
 <p><b>Aplicação cliente/servidor para gerenciar downloads simultâneos.</b></p>
 
 <h3>Banco de dados</h3>
-Ao inicializar a aplicação, o sistema verificará a presença do arquivo de banco de dados no diretório padrão. Caso o arquivo não exista, um novo arquivo será criado. Em seguida, os scripts serão executados.
+Ao inicializar a aplicação, o sistema verificará a presença do arquivo de banco de dados no diretório padrão. Caso o arquivo não exista, um novo arquivo será criado, assim como o diretório. Em seguida, os scripts serão executados.
 
 O caminho padrão e o nome do arquivo de banco de dados estão informados a seguir:
  - C:\Users\\<seu_usuario>\Documents\Desafio\Database\DESAFIO.s3db
