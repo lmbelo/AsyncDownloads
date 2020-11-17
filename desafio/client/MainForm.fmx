@@ -1,0 +1,148 @@
+object DownloadForm: TDownloadForm
+  Left = 0
+  Top = 0
+  Caption = 'Desafio - Download'
+  ClientHeight = 412
+  ClientWidth = 818
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnCloseQuery = FormCloseQuery
+  OnDestroy = FormDestroy
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Size.Width = 818.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object Button1: TButton
+      Align = Right
+      Hint = 'Novo download'
+      Position.X = 698.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'addtoolbutton'
+      TabOrder = 0
+      Text = 'Button1'
+      OnClick = Button1Click
+    end
+    object btnOptions: TButton
+      Align = Right
+      Position.X = 758.000000000000000000
+      Size.Width = 60.000000000000000000
+      Size.Height = 33.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'detailstoolbutton'
+      TabOrder = 1
+      Text = 'btnOptions'
+      OnClick = btnOptionsClick
+    end
+  end
+  object Grid1: TGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 818.000000000000000000
+    Size.Height = 379.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    RowCount = 0
+    Options = [ColumnResize, ColumnMove, ColLines, RowLines, RowSelect, Tabs, Header, HeaderClick, AutoDisplacement]
+    Viewport.Width = 814.000000000000000000
+    Viewport.Height = 354.000000000000000000
+  end
+  object lbMenu: TListBox
+    Anchors = [akTop, akRight]
+    Position.X = 645.000000000000000000
+    Position.Y = 33.000000000000000000
+    Size.Width = 154.000000000000000000
+    Size.Height = 151.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    DisableFocusEffect = True
+    DefaultItemStyles.ItemStyle = ''
+    DefaultItemStyles.GroupHeaderStyle = ''
+    DefaultItemStyles.GroupFooterStyle = ''
+    OnExit = lbMenuExit
+    Viewport.Width = 150.000000000000000000
+    Viewport.Height = 125.000000000000000000
+    object lbiExibirMensagem: TListBoxItem
+      Selectable = False
+      StyledSettings = [Family, Size, FontColor, Other]
+      Size.Width = 150.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemstyle'
+      TabOrder = 1
+      Text = 'Exibir mensagem'
+      OnClick = lbiExibirMensagemClick
+    end
+    object lbiPararDownload: TListBoxItem
+      Selectable = False
+      StyledSettings = [Family, Size, FontColor, Other]
+      Position.Y = 32.000000000000000000
+      Size.Width = 150.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'listboxitemstyle'
+      TabOrder = 0
+      Text = 'Parar download'
+      OnClick = lbiPararDownloadClick
+    end
+    object ListBoxGroupHeader1: TListBoxGroupHeader
+      TextSettings.HorzAlign = Center
+      StyledSettings = [Family, Size, Style, FontColor]
+      Margins.Top = 10.000000000000000000
+      Position.Y = 74.000000000000000000
+      StyleLookup = 'listboxplainheader'
+      TabOrder = 2
+      Text = 'Outras op'#231#245'es'
+    end
+    object lbiHistoricoDownloas: TListBoxItem
+      Position.Y = 93.000000000000000000
+      Size.Width = 150.000000000000000000
+      Size.Height = 32.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      Text = 'Hist'#243'rico de downloads'
+      OnClick = lbiHistoricoDownloasClick
+    end
+    object ListBoxHeader1: TListBoxHeader
+      Size.Width = 150.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toolbarstyle'
+      TabOrder = 0
+      object lblOpcoesDownload: TLabel
+        Align = Client
+        Size.Width = 150.000000000000000000
+        Size.Height = 22.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.HorzAlign = Center
+        Text = 'Em andamento'
+        TabOrder = 0
+      end
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = DownloadList.FDMemDownloadsCorrents
+    ScopeMappings = <>
+    Left = 259
+    Top = 189
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 180
+    Top = 189
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = Grid1
+      Columns = <>
+    end
+  end
+end

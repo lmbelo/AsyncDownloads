@@ -1,0 +1,45 @@
+unit ServerModule.Download;
+
+interface
+
+uses
+  System.SysUtils, System.Classes, Datasnap.DSServer, 
+  Datasnap.DSAuth, Datasnap.DSProviderDataModuleAdapter,
+  DataBase.Repository.Download;
+
+type
+  TDownloadServerModule = class(TDSServerModule)
+    procedure DSServerModuleCreate(Sender: TObject);
+  private
+    FRepository: TDownloadRepository;
+  public
+    function Download(const AUrl: string; const ADtInicio: TDateTime): integer;
+    procedure StopDownload(const AId: integer; const ADtFim: TDateTime);
+    //function ActiveDownloads(): TDataSet;
+  end;
+
+implementation
+
+{%CLASSGROUP 'FMX.Controls.TControl'}
+
+{$R *.dfm}
+
+procedure TDownloadServerModule.DSServerModuleCreate(Sender: TObject);
+begin
+  FRepository.Create(Self);
+end;
+
+function TDownloadServerModule.Download(const AUrl: string;
+  const ADtInicio: TDateTime): integer;
+begin
+  Result := FRepository.NewDownload(AUrl, ADtInicio);
+end;
+
+procedure TDownloadServerModule.StopDownload(const AId: integer;
+  const ADtFim: TDateTime);
+begin
+  FRepository.StopDownload(AId, Now());
+end;
+
+end.
+

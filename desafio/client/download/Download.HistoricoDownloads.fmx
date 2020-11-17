@@ -1,0 +1,90 @@
+object HistoricoDownload: THistoricoDownload
+  Left = 0
+  Top = 0
+  Caption = 'Hist'#243'rico de downloads'
+  ClientHeight = 398
+  ClientWidth = 658
+  Position = MainFormCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object grdHistoricoDownlaod: TGrid
+    Align = Client
+    CanFocus = True
+    ClipChildren = True
+    Size.Width = 658.000000000000000000
+    Size.Height = 398.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    RowCount = 0
+    Viewport.Width = 654.000000000000000000
+    Viewport.Height = 373.000000000000000000
+  end
+  object FDMemTableHostiricoDownloads: TFDMemTable
+    FieldDefs = <>
+    IndexDefs = <>
+    FetchOptions.AssignedValues = [evMode]
+    FetchOptions.Mode = fmAll
+    ResourceOptions.AssignedValues = [rvSilentMode]
+    ResourceOptions.SilentMode = True
+    UpdateOptions.AssignedValues = [uvCheckRequired, uvAutoCommitUpdates]
+    UpdateOptions.CheckRequired = False
+    UpdateOptions.AutoCommitUpdates = True
+    StoreDefs = True
+    Left = 312
+    Top = 144
+    object FDMemTableHostiricoDownloadsCODIGO: TFMTBCDField
+      DisplayLabel = 'C'#243'digo'
+      FieldName = 'CODIGO'
+      OnGetText = FDMemTableHostiricoDownloadsCODIGOGetText
+      Size = 0
+    end
+    object FDMemTableHostiricoDownloadsURL: TStringField
+      DisplayLabel = 'Url'
+      DisplayWidth = 50
+      FieldName = 'URL'
+      Size = 600
+    end
+    object FDMemTableHostiricoDownloadsDATAINICIO: TDateField
+      DisplayLabel = 'Dt. in'#237'cio'
+      FieldName = 'DATAINICIO'
+    end
+    object FDMemTableHostiricoDownloadsDATAFIM: TDateField
+      DisplayLabel = 'Dt. fim'
+      FieldName = 'DATAFIM'
+    end
+  end
+  object BindSourceDB1: TBindSourceDB
+    DataSet = FDMemTableHostiricoDownloads
+    ScopeMappings = <>
+    Left = 312
+    Top = 192
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 313
+    Top = 240
+    object LinkGridToDataSourceBindSourceDB1: TLinkGridToDataSource
+      Category = 'Quick Bindings'
+      DataSource = BindSourceDB1
+      GridControl = grdHistoricoDownlaod
+      Columns = <
+        item
+          MemberName = 'CODIGO'
+          DecimalDigits = 0
+        end
+        item
+          MemberName = 'URL'
+        end
+        item
+          MemberName = 'DATAINICIO'
+        end
+        item
+          MemberName = 'DATAFIM'
+        end>
+    end
+  end
+end

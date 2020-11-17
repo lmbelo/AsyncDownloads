@@ -1,0 +1,54 @@
+unit Download.Helper;
+
+interface
+
+uses
+  Download, System.TypInfo, System.SysUtils, Model.Download;
+
+type
+  TDownloadModelHelper = class helper for TDownloadModel
+  public
+    function Clone(): TDownloadModel;
+  end;
+
+implementation
+
+uses
+  Rtti;
+
+{ TDownloadModelHelper }
+
+function TDownloadModelHelper.Clone: TDownloadModel;
+var
+  LProperty: TRttiProperty;
+  LConstructor: TRttiMethod;
+begin
+  //Clone via Rtti
+  Result := nil;
+  var LRttiCtx := TRttiContext.Create();
+  try
+    var LRttiType := LRttiCtx.GetType(TDownloadModel);
+    try
+      var LConstructors := LRttiType.GetMethods('Create');
+      for LConstructor in LConstructors do begin
+        var LParams := LConstructor.GetParameters(); 
+        if (Length(LParams) = 0) then begin
+          Result := LConstructor.Invoke(TDownloadModel, []).AsType<TDownloadModel>;          
+          Break;
+        end;
+      end; 
+      if Assigned(Result) then           
+        for LProperty in LRttiType.GetProperties() do begin
+          if (LProperty.Visibility = TMemberVisibility.mvPublic) then begin
+            LProperty.SetValue(Result, LProperty.GetValue(Self));
+          end;
+        end;
+    finally
+      LRttiType.Free();
+    end;
+  finally
+    LRttiCtx.Free();
+  end;
+end;
+
+end.

@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/11/16 09:24:53.000.650,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 13:17:19.000.945,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 13:17:42.000.486,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\MainForm.fmx=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/11/16 13:17:42.000.486,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\MainForm.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 13:17:47.000.080,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\client.dproj=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2020/11/16 13:18:45.000.879,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 13:26:17.000.268,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 13:26:36.000.837,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ServerClasses.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 13:31:39.000.523,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit2.pas</Transaction>
+    <Transaction>2020/11/16 13:31:45.000.962,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\HistoricoDownloads.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit2.pas</Transaction>
+    <Transaction>2020/11/16 13:31:45.000.962,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\HistoricoDownloads.fmx=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit2.fmx</Transaction>
+    <Transaction>2020/11/16 13:32:12.000.706,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit3.pas</Transaction>
+    <Transaction>2020/11/16 13:35:43.000.110,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 13:35:50.000.173,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit3.pas</Transaction>
+    <Transaction>2020/11/16 13:35:58.000.385,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\AcompanhamentoDownload.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit3.pas</Transaction>
+    <Transaction>2020/11/16 13:35:58.000.385,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\AcompanhamentoDownload.fmx=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit3.fmx</Transaction>
+    <Transaction>2020/11/16 13:36:53.000.327,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\AcompanhamentoDownload.pas=</Transaction>
+    <Transaction>2020/11/16 13:45:42.000.031,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 13:45:45.000.822,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 13:46:56.000.206,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Download.pas=</Transaction>
+    <Transaction>2020/11/16 13:47:11.000.578,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 13:47:18.000.515,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Download.dfm=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.dfm</Transaction>
+    <Transaction>2020/11/16 13:47:18.000.515,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 13:55:58.000.894,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit2.pas</Transaction>
+    <Transaction>2020/11/16 13:56:05.000.517,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\DownloadsCorrents.dfm=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit2.dfm</Transaction>
+    <Transaction>2020/11/16 13:56:05.000.517,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\DownloadsCorrents.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit2.pas</Transaction>
+    <Transaction>2020/11/16 14:51:40.000.225,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Download.pas=</Transaction>
+    <Transaction>2020/11/16 14:51:42.000.336,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\HistoricoDownloads.pas=</Transaction>
+    <Transaction>2020/11/16 14:51:42.000.229,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\DownloadsCorrents.pas=</Transaction>
+    <Transaction>2020/11/16 14:52:24.000.312,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ServerClasses.pas=</Transaction>
+    <Transaction>2020/11/16 14:52:33.000.884,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadsCorrents.pas</Transaction>
+    <Transaction>2020/11/16 14:52:33.000.971,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\HistoricoDownloads.pas</Transaction>
+    <Transaction>2020/11/16 14:52:33.000.785,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.pas</Transaction>
+    <Transaction>2020/11/16 14:52:38.000.536,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\ServerClasses.pas</Transaction>
+    <Transaction>2020/11/16 14:53:39.000.407,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadFile.dfm=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.dfm</Transaction>
+    <Transaction>2020/11/16 14:53:39.000.407,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadFile.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.pas</Transaction>
+    <Transaction>2020/11/16 14:53:47.000.156,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 14:53:55.000.309,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 14:54:26.000.598,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.Files.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadFile.pas</Transaction>
+    <Transaction>2020/11/16 14:54:26.000.598,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.Files.dfm=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadFile.dfm</Transaction>
+    <Transaction>2020/11/16 14:54:46.000.822,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.List.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadsCorrents.pas</Transaction>
+    <Transaction>2020/11/16 14:54:46.000.822,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.List.dfm=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadsCorrents.dfm</Transaction>
+    <Transaction>2020/11/16 14:54:56.000.185,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.Download.pas</Transaction>
+    <Transaction>2020/11/16 15:07:46.000.227,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:08:26.000.848,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\ServerClasses.pas</Transaction>
+    <Transaction>2020/11/16 15:12:53.000.916,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:13:05.000.453,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas=</Transaction>
+    <Transaction>2020/11/16 15:13:10.000.996,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:20:18.000.767,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas=</Transaction>
+    <Transaction>2020/11/16 15:20:33.000.192,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:20:38.000.367,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:22:43.000.885,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:22:44.000.805,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:23:10.000.066,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas=</Transaction>
+    <Transaction>2020/11/16 15:23:16.000.257,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientModuleUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:23:16.000.257,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.dfm=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientModuleUnit1.dfm</Transaction>
+    <Transaction>2020/11/16 15:23:21.000.174,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\ClientClassesUnit1.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:23:41.000.718,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Client.dfm=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.dfm</Transaction>
+    <Transaction>2020/11/16 15:23:41.000.718,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Client.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas</Transaction>
+    <Transaction>2020/11/16 15:23:48.000.857,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\Api.Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\api\ClientClassesUnit1.pas</Transaction>
+    <Transaction>2020/11/16 15:57:27.000.445,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 15:57:34.000.205,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Types.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 15:58:26.000.947,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Types.pas=</Transaction>
+    <Transaction>2020/11/16 15:58:40.000.419,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Types.pas</Transaction>
+    <Transaction>2020/11/16 15:58:53.000.462,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.Subscriber.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Types.pas</Transaction>
+    <Transaction>2020/11/16 16:13:11.000.843,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadManager.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.pas</Transaction>
+    <Transaction>2020/11/16 16:16:37.000.317,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 16:16:44.000.996,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 17:02:37.000.916,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 17:02:44.000.384,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadHelper.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 19:10:15.000.702,=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/16 19:10:33.000.414,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\model\Model.Download.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\Unit1.pas</Transaction>
+    <Transaction>2020/11/17 10:03:01.000.215,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\HistoricoDownloads.fmx=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadHistoricoDownloads.fmx</Transaction>
+    <Transaction>2020/11/17 10:03:01.000.215,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\HistoricoDownloads.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadHistoricoDownloads.pas</Transaction>
+    <Transaction>2020/11/17 10:03:05.000.860,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadHistoricoDownloads.fmx=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.HistoricoDownloads.fmx</Transaction>
+    <Transaction>2020/11/17 10:03:05.000.860,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadHistoricoDownloads.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.HistoricoDownloads.pas</Transaction>
+    <Transaction>2020/11/17 10:03:11.000.888,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadManager.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.Manager.pas</Transaction>
+    <Transaction>2020/11/17 10:03:15.000.960,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\DownloadHelper.pas=C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.Helper.pas</Transaction>
+    <Transaction>2020/11/17 12:27:04.602,C:\Users\lucas.moura\Documents\Embarcadero\Studio\Projects\desafio\client\download\Download.Helper.pas=</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile Android64="P4D" Android="P4D"/>
+	</ActiveMobileDevice>
+</BorlandProject>
