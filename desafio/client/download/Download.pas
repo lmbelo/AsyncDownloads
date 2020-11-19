@@ -148,9 +148,9 @@ end;
 
 procedure TDownload.Download(const AUrl: string; const ADtIni: TDateTime);
 begin
+  FNotification := TDownloadNotification.Create(Self);
   try
-    try
-      FNotification := TDownloadNotification.Create(Self);
+    try      
       var LData := FNotification.Data;
       LData.Url := AUrl;
       LData.DtInicio := ADtIni;
