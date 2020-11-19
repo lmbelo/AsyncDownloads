@@ -32,14 +32,21 @@ end;
 function TDownloadServerModule.DownloadHistory: TFDJSONDataSets;
 begin
   Result := TFDJSONDataSets.Create();
-  TFDJSONDataSetsWriter.ListAdd(Result, FRepository.DownloadHistory());
+  try
+    TFDJSONDataSetsWriter.ListAdd(Result, FRepository.DownloadHistory());
+  except
+    on E: Exception do begin
+      FreeAndNil(Result);
+      raise;
+    end;
+  end;
 end;
 
 function TDownloadServerModule.Download(const AUrl: string;
   const ADtInicio: TDateTime): integer;
 begin
   if (AUrl.Length > 600) then
-    raise Exception.Create('O tamanho da URL n„o pode exceder 600 caracteres');
+    raise Exception.Create('O tamanho da URL n√£o pode exceder 600 caracteres');
   Result := FRepository.NewDownload(AUrl, ADtInicio);
 end;
 
